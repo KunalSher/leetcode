@@ -27,14 +27,13 @@ public:
                         nums.push_back(0);
                         cntred--;
                     }
-                    else if (cntred==0 && cntwhite!=0){
+                    else if (cntwhite!=0){
                         nums.push_back(1);
                         cntwhite--;
 
                     }
-                    else if (cntred==0 && cntwhite==0 && cntblue!=0) {
+                    else {
                         nums.push_back(2);
-                        cntblue--;
                     }
                 }
     }
